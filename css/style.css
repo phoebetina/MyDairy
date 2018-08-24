@@ -1,0 +1,115 @@
+.center {
+
+
+
+margin-left: 100px;
+margin-right: 100px;
+margin-top: 100px;
+margin-bottom: 100px;
+padding-top: 100px;
+padding-right: 200px;
+padding-bottom: 100px;
+padding-left: 200px;
+align-content: center;
+
+}
+body {
+   width: 1150px;
+   
+}
+.container{
+     height: 100%;
+  
+    width: 100%; 
+    padding-top: 10px;
+    padding-bottom: 10px; 
+     
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.field{
+    text-align: right;
+    float: center;
+    padding-right: 5px;
+    padding-left: 5px;
+    width:500px;
+}
+.hh{
+    position:absolute;
+    top:0;
+    right:0;
+    width: 100px;
+color: azure;
+
+
+padding-top: 5px;
+}
+td{
+    text-align: right;
+    padding: 5px;
+}
+iu{
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#0b0808;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color:#0b0808;
+}
