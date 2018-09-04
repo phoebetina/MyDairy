@@ -150,3 +150,8 @@ li a:hover:not(.active) {
         padding-left: 100px;
         align-content: center;
 }
+.dob{
+    border-radius: 8px;
+    font-size: 20px;
+
+}
