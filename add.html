@@ -8,7 +8,8 @@
        
 <ul>
         <li><a href="#">Home</a></li>
-        <li ><a href="#">Add</a></li>
+        <li ><a href="#">Add Post</a></li>
+        <li ><a href="#">View  Post</a></li>
         <li ><a href="#">Profile</a></li>
         <li style="float:right"><a class="active" href="#">logout</a></li>
       </ul>
@@ -16,11 +17,20 @@
       <div class="center">
           <form>
               <fieldset>
-                  <legend style="color:azure;">Add entry</legend>
+                  <legend style="color:azure;">Add Post</legend>
+                  <p style="color:azure;" id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = Date();
+</script>
+
                   <p style="color:azure;">Topic:</p><br>
                   <input type="text" name="topic">
-                  <textarea value="write your content here"></textarea>
-                  <input type="submit" name="submit">
+                  <p style="color:azure;">Content:</p><br>
+                  <textarea name="message" rows="10" cols="65">write your content here</textarea><br><br>
+                  <button class="button" name="post">
+                    Post
+                </button>
               </fieldset>
           </form>
       </div>
